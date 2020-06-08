@@ -1,0 +1,74 @@
+﻿@model Gavilanch2.Models.PersonaModel
+@{
+    ViewBag.Title = "Listar";
+}
+
+<h2>Listar</h2>
+
+<div class="form-group">
+
+    @Html.LabelFor(model => model.ObjetoPersona.Id, "Codigo")
+    @Html.DisplayFor(model => model.ObjetoPersona.Id)
+</div>
+
+<div class="form-group">
+
+    @Html.LabelFor(model => model.ObjetoPersona.Nombre)
+    @Html.DisplayFor(model => model.ObjetoPersona.Nombre)
+</div>
+
+<div class="form-group">
+
+    @Html.LabelFor(model => model.ObjetoPersona.Edad)
+    @Html.DisplayFor(model => model.ObjetoPersona.Edad)
+</div>
+
+
+<div class="form-group">
+
+    @Html.LabelFor(model => model.ObjetoPersona.FechaNacimiento)
+    @Html.DisplayFor(model => model.ObjetoPersona.FechaNacimiento)
+</div>
+
+
+<div class="form-group">
+
+    @Html.LabelFor(model => model.ObjetoPersona.Activo)
+    @Html.DisplayFor(model => model.ObjetoPersona.Activo)
+</div>
+
+
+
+<div class="form-group">
+
+    @Html.LabelFor(model => model.ObjetoPersona.Id, "Codigo")
+    @Html.EditorFor(model => model.ObjetoPersona.Id)
+</div>
+
+<div class="form-group">
+
+    @Html.LabelFor(model => model.ObjetoPersona.Nombre)
+    @Html.EditorFor(model => model.ObjetoPersona.Nombre)
+</div>
+
+<div class="form-group">
+
+    @Html.LabelFor(model => model.ObjetoPersona.Edad)
+    @Html.EditorFor(model => model.ObjetoPersona.Edad)
+</div>
+
+
+<div class="form-group">
+
+    @Html.LabelFor(model => model.ObjetoPersona.FechaNacimiento)
+    @Html.EditorFor(model => model.ObjetoPersona.FechaNacimiento)
+</div>
+
+
+<div class="form-group">
+
+    @Html.LabelFor(model => model.ObjetoPersona.Activo)
+    @Html.EditorFor(model => model.ObjetoPersona.Activo)
+</div>
+
+
